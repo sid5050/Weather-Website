@@ -85,10 +85,11 @@ app.get('/weather',(req,res) => {
                 location: data.location,
                 forecast: forecastData.weather[0].description,
                 temperature: forecastData.body.temp,
-                address: req.query.address
+                address: req.query.address,
+                forecastData
             })
-            console.log('Weather desription: '+ forecastData.weather[0].description +'. It is currently '+forecastData.body.temp+' degrees out.')
-            console.log(data.location)
+            // console.log('Weather desription: '+ forecastData.weather[0].description +'. It is currently '+forecastData.body.temp+' degrees out.')
+            // console.log(data.location)
           })
     })
     

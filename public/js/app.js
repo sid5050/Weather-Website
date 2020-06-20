@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit',(e) => {
         else{
             console.log(data)
             messageOne.textContent = data.location
-            messageTwo.textContent = 'Weather condition: '+data.forecast+'. It is currently '+data.temperature+' degrees out.'
+            messageTwo.textContent = 'Weather condition: '+data.forecast+'. It is currently '+data.temperature+' degrees out. The high today is '+data.forecastData.body.temp_max+' with a low of '+data.forecastData.body.temp_min+' degrees.'
         }
     })
 })
