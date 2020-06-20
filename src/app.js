@@ -30,7 +30,7 @@ app.get('',(req,res) => {
 app.get('/about',(req,res) => {
     res.render('about', {
         title: 'About Me',
-        aboutText: 'This site was created by Siddhant Gupta. It uses geo location data from MapBox to retrieve weather information from OpenWeatherMap.',
+        aboutText: 'This site was created by Siddhant Gupta. It uses geo location data from MapBox.com to retrieve weather information from OpenWeatherMap.com!',
         name: 'Siddhant'
     })
 })
