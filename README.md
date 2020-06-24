@@ -18,7 +18,7 @@ Open the project folder at the root in your terminal and run npm install to down
 Next, type node src/app.js to run the Express server which defaults to localhost:3000.
 
 # Built With
-# Node.js - JavaScript runtime
-# Express - Server Framework
-# MapBox API - Latitude and longitude
-# OpenWeatherMap - Weather information
+Node.js - JavaScript runtime
+Express - Server Framework
+MapBox API - Latitude and longitude
+OpenWeatherMap - Weather information
